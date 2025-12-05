@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+.cabecalho{
+    font-size: 0,5em;
+}
+
+.cabecalho img{
+    height: 80px;
+    width: 180px;
+}
