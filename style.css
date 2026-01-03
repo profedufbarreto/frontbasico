@@ -17,8 +17,17 @@ a{
 
 table{
     border: 3px black solid;
+    width: 100%;
 }
 
-th, td{
+tr, td{
     border: 1px black solid;
 }
+
+th{
+    border: 1px black solid;
+    width: 70%;
+}
+
+
+
