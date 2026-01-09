@@ -1,0 +1,10 @@
+/* *{
+    box-sizing: bor;
+} */
+
+body{
+    font-family: "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background: #f4f7fb;
+    color: #253238;
+}
