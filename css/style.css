@@ -1,17 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    /* Centraliza o corpo da página na tela */
-    max-width: 960px;
+    width: 100%;
     margin: 0 auto; 
     
-    background-color: seashell;
+    background-color: rgb(251, 168, 109);
     background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
-                      url('/images/carros-esportivos.jpeg');
+                      url('/images/18093_les-paul-modern-figured-cherry-burst-ps-4751-143877_m1_638563867872429608.webp');
     
     background-repeat: no-repeat;
     background-position: center top;
-    background-attachment: fixed; /* Troquei scroll por fixed para um efeito mais elegante */
-    background-size: cover; /* Faz a imagem cobrir o espaço disponível proporcionalmente */
+    background-attachment: fixed; 
+    background-size: cover; 
     
-    font-family: Arial, sans-serif; /* Sempre defina uma fonte base */
+    font-family: Arial, sans-serif; 
     color: #333;
+}
+
+header{
+    text-align: center;
+    background-color: orange;
+    max-width: 100%;
+    margin: 0;
+    padding: 50px;
+}
+
+
+table img{
+    width: 150px;
+    height: 300px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+table, tr, th, th{
+    text-align: center;
+    margin: 20px;
 }
