@@ -7,18 +7,23 @@ body{
     justify-content: center;
     gap: 30px;
     border:2px solid blue;
-    background-color: yellow;
-    padding: 20px;
+    background-color: #ffff00;
+    padding: 30px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .caixanum{
     border:2px solid red;
     background-color: white;
     padding: 20px;
+    margin: 20px;
+    
 }
 
 .caixaletra{
     border:2px solid green;
     background-color: peachpuff;
     padding: 20px;
+    margin: 20px;
 }
