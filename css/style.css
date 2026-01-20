@@ -4,5 +4,21 @@ body{
 
 .container{
     display: flex;
-    
+    justify-content: center;
+    gap: 30px;
+    border:2px solid blue;
+    background-color: yellow;
+    padding: 20px;
+}
+
+.caixanum{
+    border:2px solid red;
+    background-color: white;
+    padding: 20px;
+}
+
+.caixaletra{
+    border:2px solid green;
+    background-color: peachpuff;
+    padding: 20px;
 }
